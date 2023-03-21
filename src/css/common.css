@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+.button__container {
+  margin-bottom: 50%;
+  margin-top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button__start {
+  width: 60px;
+  height: 40;
+}
+.button__stop {
+  width: 60px;
+  height: 40;
+}
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.value {
+  font-size: 40px;
+}
